@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap">
+  <style>
+    body {
+      font-family: 'Quicksand', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      background-color: #f0f2f5; /* Warna latar belakang yang mirip dengan Facebook */
+    }
+
+    .container {
+      background: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      border-radius: 8px;
+      width: 300px;
+      text-align: center;
+    }
+
+    .header {
+      background: #1877f2; /* Warna biru Facebook */
+      padding: 10px;
+      border-radius: 4px 4px 0 0;
+      color: #fff;
+      font-size: 1.5em;
+      margin-bottom: 20px;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 14px;
+      margin-bottom: 5px;
+      color: #1d2129; /* Warna teks yang mirip dengan Facebook */
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #dddfe2;
+      border-radius: 4px;
+    }
+
+    .form-group button {
+      width: 100%;
+      padding: 10px;
+      background: #1877f2; /* Warna biru Facebook */
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .form-group button:hover {
+      background: #1569c7; /* Warna biru yang lebih gelap pada hover */
+    }
+  </style>
+  <title>Login Page</title>
+</head>
+<body>
+
+<div class="container">
+  <div class="header">Login</div>
+  <div class="form-group">
+    <label for="username">Username</label>
+    <input type="text" id="username" name="username" placeholder="Enter your username">
+  </div>
+  <div class="form-group">
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" placeholder="Enter your password">
+  </div>
+  <div class="form-group">
+    <button type="submit">Login</button>
+  </div>
+</div>
+
+</body>
+</html>

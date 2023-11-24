@@ -1,0 +1,29 @@
+.styled-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.styled-table th,
+.styled-table td {
+  border: 1px solid #f39c12; /* Yellow border color */
+  padding: 8px;
+  text-align: left;
+}
+
+.styled-table th {
+  background-color: #f39c12; /* Yellow background color */
+  color: #fff; /* White text color */
+  font-weight: bold;
+}
+
+.styled-table tbody tr:nth-child(even) {
+  background-color: #f8c471; /* Light yellow background color for even rows */
+}
+
+.styled-table tbody tr:hover {
+  background-color: #d4ac0d; /* Medium yellow background color on hover */
+}
+
+
+  
